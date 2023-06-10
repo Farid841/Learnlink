@@ -83,4 +83,12 @@ Suivez ces étapes pour installer et exécuter le projet :
 9. Vous devriez maintenant voir l'application en cours d'exécution localement sur votre machine.
 
 
-10. Pour le changement du mot de passe il suffirra de cree un compte superuser et apres se connecter à l'interface admin de django 
+10. Pour effectuer un changement de mot de passe dans Django, vous pouvez suivre les étapes suivantes :
+
+     1 Créez un compte superutilisateur en exécutant la commande suivante dans votre terminal :
+
+    bash
+
+          python manage.py createsuperuser
+
+     Suivez les instructions pour fournir un nom d'utilisateur, une adresse e-mail (facultatif) et un mot de passe pour le compte superutilisateur.
